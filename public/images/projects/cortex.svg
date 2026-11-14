@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="100%" height="100%">
+  <rect width="1200" height="720" fill="#050505"/>
+
+  <!-- Top Bar -->
+  <rect x="48" y="40" width="1104" height="56" fill="#111111" stroke="#222222" stroke-width="1"/>
+  <text x="76" y="73" fill="#FFFFFF" font-family="monospace" font-size="13" font-weight="600" letter-spacing="3">CORTEX — SECURE AUTHENTICATION &amp; ACCOUNT MANAGEMENT</text>
+  <text x="945" y="73" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">JWT • BCRYPT • NODEMAILER</text>
+
+  <!-- Left Column: Authentication Interface Mock -->
+  <rect x="48" y="120" width="510" height="552" fill="#0D0D0D" stroke="#222222" stroke-width="1"/>
+  <text x="96" y="184" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">SESSION INITIALIZATION</text>
+  <text x="96" y="224" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="600">Sign in to Cortex</text>
+  <text x="96" y="252" fill="#777777" font-family="sans-serif" font-size="13">Protected account access with encrypted credential verification.</text>
+
+  <!-- Email Input -->
+  <text x="96" y="302" fill="#E5E5E5" font-family="monospace" font-size="11" letter-spacing="1.5">EMAIL ADDRESS</text>
+  <rect x="96" y="316" width="414" height="48" fill="#111111" stroke="#222222" stroke-width="1"/>
+  <text x="116" y="345" fill="#FFFFFF" font-family="monospace" font-size="13">anas@cortex-auth.local</text>
+
+  <!-- Password Input -->
+  <text x="96" y="396" fill="#E5E5E5" font-family="monospace" font-size="11" letter-spacing="1.5">PASSWORD</text>
+  <text x="402" y="396" fill="#777777" font-family="monospace" font-size="11">Forgot password?</text>
+  <rect x="96" y="410" width="414" height="48" fill="#111111" stroke="#222222" stroke-width="1"/>
+  <text x="116" y="439" fill="#FFFFFF" font-family="monospace" font-size="14" letter-spacing="4">••••••••••••</text>
+
+  <!-- Submit Button -->
+  <rect x="96" y="488" width="414" height="52" fill="#FFFFFF"/>
+  <text x="234" y="519" fill="#050505" font-family="sans-serif" font-size="13" font-weight="700" letter-spacing="2">AUTHENTICATE →</text>
+
+  <text x="96" y="588" fill="#777777" font-family="monospace" font-size="11">BCRYPT SALT ROUNDS: 12 • HTTP-ONLY JWT SESSION</text>
+
+  <!-- Right Column: Security Pipeline Architecture -->
+  <rect x="586" y="120" width="566" height="552" fill="#111111" stroke="#222222" stroke-width="1"/>
+  <text x="626" y="172" fill="#FFFFFF" font-family="monospace" font-size="13" letter-spacing="2">SECURITY WORKFLOW ARCHITECTURE</text>
+  <line x1="626" y1="192" x2="1112" y2="192" stroke="#222222" stroke-width="1"/>
+
+  <!-- Step 01 -->
+  <rect x="626" y="220" width="486" height="96" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
+  <text x="654" y="254" fill="#777777" font-family="monospace" font-size="11">01 // CREDENTIAL HASHING</text>
+  <text x="654" y="280" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="500">bcrypt Password Encryption &amp; Verification</text>
+  <text x="654" y="300" fill="#777777" font-family="monospace" font-size="11">Salted cryptographic digest stored in MongoDB</text>
+
+  <!-- Step 02 -->
+  <rect x="626" y="340" width="486" height="96" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
+  <text x="654" y="374" fill="#777777" font-family="monospace" font-size="11">02 // STATELESS AUTHORIZATION</text>
+  <text x="654" y="400" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="500">JSON Web Token (JWT) Session Guard</text>
+  <text x="654" y="420" fill="#777777" font-family="monospace" font-size="11">Protected Express.js API routes &amp; account state</text>
+
+  <!-- Step 03 -->
+  <rect x="626" y="460" width="486" height="96" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
+  <text x="654" y="494" fill="#777777" font-family="monospace" font-size="11">03 // AUTOMATED RECOVERY DISPATCH</text>
+  <text x="654" y="520" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="500">Nodemailer Transactional Email Recovery</text>
+  <text x="654" y="540" fill="#777777" font-family="monospace" font-size="11">Time-bound password reset tokens &amp; verification alerts</text>
+
+  <text x="626" y="616" fill="#E5E5E5" font-family="monospace" font-size="11">REACT • VITE • TAILWIND CSS • EXPRESS.JS • MONGODB</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="100%" height="100%">
+  <rect width="1200" height="720" fill="#050505"/>
+
+  <!-- Editorial Header -->
+  <rect x="48" y="40" width="1104" height="64" fill="#0D0D0D" stroke="#222222" stroke-width="1"/>
+  <text x="84" y="79" fill="#FFFFFF" font-family="Georgia, serif" font-size="22" letter-spacing="6">NOIR TABLE</text>
+  <text x="340" y="77" fill="#777777" font-family="monospace" font-size="11" letter-spacing="3">CONTEMPORARY GASTRONOMY • CURATED MENU • WHATSAPP CONCIERGE</text>
+
+  <!-- Left: Tasting Menu Selection -->
+  <rect x="48" y="128" width="680" height="544" fill="#0B0B0B" stroke="#222222" stroke-width="1"/>
+  <text x="88" y="180" fill="#777777" font-family="monospace" font-size="11" letter-spacing="3">EVENING DEGUSTATION</text>
+  <text x="88" y="216" fill="#FFFFFF" font-family="Georgia, serif" font-size="28">Seasonal Culinary Creations</text>
+  <line x1="88" y1="242" x2="688" y2="242" stroke="#222222" stroke-width="1"/>
+
+  <!-- Dish 01 -->
+  <text x="88" y="286" fill="#FFFFFF" font-family="Georgia, serif" font-size="18">01. Charcoal-Seared Ribeye &amp; Truffle Jus</text>
+  <text x="88" y="310" fill="#777777" font-family="sans-serif" font-size="13">Wild chanterelles, roasted bone marrow reduction, crisp shallots</text>
+  <text x="630" y="286" fill="#FFFFFF" font-family="monospace" font-size="15">$64</text>
+  <line x1="88" y1="338" x2="688" y2="338" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- Dish 02 -->
+  <text x="88" y="382" fill="#FFFFFF" font-family="Georgia, serif" font-size="18">02. Pan-Roasted Black Cod</text>
+  <text x="88" y="406" fill="#777777" font-family="sans-serif" font-size="13">Smoked dashi broth, charred leek heart, sea herbs</text>
+  <text x="630" y="382" fill="#FFFFFF" font-family="monospace" font-size="15">$52</text>
+  <line x1="88" y1="434" x2="688" y2="434" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- Dish 03 -->
+  <text x="88" y="478" fill="#FFFFFF" font-family="Georgia, serif" font-size="18">03. Artisanal Burrata &amp; Heirloom Fig</text>
+  <text x="88" y="502" fill="#777777" font-family="sans-serif" font-size="13">Aged balsamic glaze, toasted sourdough crisp, cold-pressed olive oil</text>
+  <text x="630" y="478" fill="#FFFFFF" font-family="monospace" font-size="15">$28</text>
+  <line x1="88" y1="530" x2="688" y2="530" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- Dish 04 -->
+  <text x="88" y="574" fill="#FFFFFF" font-family="Georgia, serif" font-size="18">04. Dark Chocolate Ganache Tart</text>
+  <text x="88" y="598" fill="#777777" font-family="sans-serif" font-size="13">70% single-origin cocoa, espresso crema, sea salt flakes</text>
+  <text x="630" y="574" fill="#FFFFFF" font-family="monospace" font-size="15">$22</text>
+
+  <!-- Right: Direct WhatsApp Order Dispatch -->
+  <rect x="756" y="128" width="396" height="544" fill="#111111" stroke="#222222" stroke-width="1"/>
+  <text x="796" y="180" fill="#777777" font-family="monospace" font-size="11" letter-spacing="2">INSTANT RESERVATION &amp; ORDER</text>
+  <text x="796" y="216" fill="#FFFFFF" font-family="Georgia, serif" font-size="22">WhatsApp Order Summary</text>
+  <line x1="796" y1="242" x2="1112" y2="242" stroke="#222222" stroke-width="1"/>
+
+  <text x="796" y="282" fill="#E5E5E5" font-family="monospace" font-size="12">1x Charcoal-Seared Ribeye ...... $64</text>
+  <text x="796" y="312" fill="#E5E5E5" font-family="monospace" font-size="12">1x Pan-Roasted Black Cod ....... $52</text>
+  <text x="796" y="342" fill="#E5E5E5" font-family="monospace" font-size="12">1x Dark Chocolate Ganache ...... $22</text>
+  <line x1="796" y1="368" x2="1112" y2="368" stroke="#222222" stroke-width="1"/>
+  <text x="796" y="400" fill="#FFFFFF" font-family="monospace" font-size="15" font-weight="bold">TOTAL ESTIMATED: $138.00</text>
+
+  <!-- Formatted WhatsApp Payload Box -->
+  <rect x="796" y="432" width="316" height="110" fill="#050505" stroke="#222222" stroke-width="1"/>
+  <text x="814" y="460" fill="#777777" font-family="monospace" font-size="10">STRUCTURED WHATSAPP PAYLOAD:</text>
+  <text x="814" y="484" fill="#E5E5E5" font-family="monospace" font-size="11">"New Order — Noir Table</text>
+  <text x="814" y="502" fill="#E5E5E5" font-family="monospace" font-size="11">Items: Ribeye, Black Cod, Tart</text>
+  <text x="814" y="520" fill="#777777" font-family="monospace" font-size="10">Table / Delivery Details Attached"</text>
+
+  <!-- CTA -->
+  <rect x="796" y="572" width="316" height="52" fill="#FFFFFF"/>
+  <text x="854" y="603" fill="#050505" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="2">ORDER VIA WHATSAPP →</text>
+</svg>
