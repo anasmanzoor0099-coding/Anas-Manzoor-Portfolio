@@ -178,9 +178,9 @@ export const portfolioData = {
         number: "01",
         id: "wifivision",
         title: "WiFiVision",
-        category: "Full-Stack Monitoring & Visualization",
+        category: "Full-Stack Web & Android Application",
         description:
-          "A full-stack Wi-Fi monitoring and visualization platform designed to analyze network observations, signal strength, network quality and performance.",
+          "A smart Wi-Fi monitoring and visualization platform that helps users understand network signal strength, connection quality, performance, and geographical coverage through interactive heatmaps and analytics.",
         technologies: [
           "Next.js",
           "React",
@@ -191,8 +191,7 @@ export const portfolioData = {
           "Kotlin",
         ],
         image: "/images/projects/wifivision.svg",
-        // Set actual URLs here when deployed/published; null keeps links honest & configurable
-        liveUrl: null,
+        liveUrl: "https://wi-fi-vision-d6kt-theta.vercel.app/",
         sourceUrl: null,
       },
       {
